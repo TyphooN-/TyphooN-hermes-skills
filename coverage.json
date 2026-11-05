@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-11-05",
+  "source_hermes_revision": "71736c9f32597bbca9d89cede5aa136e55946b2f",
+  "counts": {
+    "unchanged-bundled": 49,
+    "modified-bundled": 10,
+    "local-custom": 17,
+    "external-omarchy-link": 3
+  },
+  "included_count": 27,
+  "profile_skill_count": 79,
+  "external_packages": [
+    {
+      "provider": "oh-my-hermes",
+      "skill_count": 153,
+      "included": false,
+      "reason": "Registered external package, not local-authored; install original package separately."
+    }
+  ],
+  "skills": [
+    {
+      "name": "apple-notes",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "apple-reminders",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "findmy",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "imessage",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "claude-code",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "codex",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "computer-use",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "hermes-agent",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "opencode",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "architecture-diagram",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "ascii-video",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "baoyu-infographic",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "claude-design",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "design-md",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "humanizer",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "manim-video",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "p5js",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "popular-web-designs",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "songwriting-and-ai-music",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "filesystem-integrity-recovery",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "linux-kernel-boot-integration",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "sdlc-review",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "email-inbox-triage",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "himalaya",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "omh-handoff-scan-notes",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "gif-search",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "songsee",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "youtube-content",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "obsidian",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "airtable",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "box",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "document-to-action-items",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "docx",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "google-workspace",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "maps",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "meeting-action-items",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "microsoft-office",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "notion",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "pdf",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "powerpoint",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "product-price-monitor",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "weekly-review-planning",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "xlsx",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "arxiv",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "competitor-news-monitor",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "grounded-citations",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "leanrea",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "legacy-game-static-assessment",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "llm-wiki",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "local-model-selection",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "uefi-xeon-turbo-research",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "security-audit",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "xurl",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "codebase-inspection",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "desktop-configurator-development",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "dogfood",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "git-remote-ref-recovery",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "github",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "hermes-agent-skill-authoring",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "hermes-session-recovery",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "inspecting-hermes-desktop-dom",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "llama-cpp-upstream-refresh",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "node-inspect-debugger",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "omarchy-upstream-maintenance",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "pinned-offline-port-proof",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "python-debugpy",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "requesting-code-review",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "rust-workspace-dependency-refresh",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "simplify-code",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "source-faithful-game-ports",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "spike",
+      "classification": "unchanged-bundled",
+      "included": false,
+      "reason": "Installed package exactly matches recorded sync-origin package hash."
+    },
+    {
+      "name": "systematic-debugging",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "test-driven-development",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "supernal-wallpaper-intake",
+      "classification": "local-custom",
+      "included": true,
+      "reason": "No matching bundled origin or unchanged optional package; review local provenance."
+    },
+    {
+      "name": "blocked-page-recovery",
+      "classification": "modified-bundled",
+      "included": true,
+      "reason": "Installed package differs from recorded sync origin (supporting files included)."
+    },
+    {
+      "name": "diagnose-crash",
+      "classification": "external-omarchy-link",
+      "included": false,
+      "reason": "Symlink to upstream Omarchy-provided skill, not a local-authored payload."
+    },
+    {
+      "name": "omarchy",
+      "classification": "external-omarchy-link",
+      "included": false,
+      "reason": "Symlink to upstream Omarchy-provided skill, not a local-authored payload."
+    },
+    {
+      "name": "omarchy-app",
+      "classification": "external-omarchy-link",
+      "included": false,
+      "reason": "Symlink to upstream Omarchy-provided skill, not a local-authored payload."
+    }
+  ],
+  "additional_profile_audit": {
+    "scope": "Read-only inventory of another existing local profile; no profile writes.",
+    "skill_directories": 59,
+    "origin_matching_packages": 57,
+    "excluded_non_workflow_stubs": [
+      {
+        "directory": "pdf",
+        "frontmatter_name": "offline",
+        "bytes": 43,
+        "reason": "Header-only offline placeholder, no skill body; not a custom workflow to redistribute."
+      },
+      {
+        "directory": "docx",
+        "frontmatter_name": "offline",
+        "bytes": 43,
+        "reason": "Header-only offline placeholder, no skill body; not a custom workflow to redistribute."
+      }
+    ],
+    "additional_complete_custom_skills": 0
+  },
+  "redacted_private_skill_count": 1,
+  "inventory_scope": "Public named entries only. A private project skill is omitted from both the payload and the named inventory."
+}

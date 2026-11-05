@@ -1,0 +1,1246 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "blocked-page-recovery",
+      "path": "skills/web/blocked-page-recovery",
+      "classification": "modified-bundled",
+      "description": "Use when a fetch fails: 403/429, paywall, WAF, bot wall.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "7dd7e9c787b48e17a3be0c24f91a3b37",
+      "bundled_origin_md5": "846204f76da00a9c199a56086b68dea6",
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "grounded-citations"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 6811,
+          "sha256": "a95bf1eb7bb2c3e4893fe4f65c42cf0fd1fe3c8c8725d30e10ac233bad838e8b",
+          "executable": false
+        },
+        "references/software-media-integrity.md": {
+          "bytes": 5179,
+          "sha256": "d2a534acd647223eadcd3fc100f309b8113e93a132b2cfcacc5e4f5ee736ab87",
+          "executable": false
+        },
+        "scripts/recover_page.py": {
+          "bytes": 8481,
+          "sha256": "22b996996ae2bf252b31cfd2636231f08936729a381dce7ba8bfa4afb8ffe8c6",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "grounded-citations"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "claude-code",
+      "path": "skills/autonomous-ai-agents/claude-code",
+      "classification": "modified-bundled",
+      "description": "Delegate coding to Claude Code CLI (features, PRs).",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "cee5de400e743f5b43a02ad074cfbbf4",
+      "bundled_origin_md5": "dc4227a201138283739648ad2a400f8a",
+      "source_author": "Hermes Agent + Teknium",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "codex",
+        "hermes-agent",
+        "opencode"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 92848,
+          "sha256": "33c6b44de954d303945c530a4208a35d722c9176d01adc08ff9cb05e72406d94",
+          "executable": false
+        },
+        "references/process-recovery.md": {
+          "bytes": 15878,
+          "sha256": "6d31e8fa7f4af332daae2d97fb8b231ec647ebfa2985a1ee7991bd8d8f632223",
+          "executable": false
+        },
+        "references/source-only-reviews.md": {
+          "bytes": 16411,
+          "sha256": "66070dd9cdc08ec087351a7289e709d057c236141b2531feb1bfde009d6fbd58",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "opencode"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "claude-design",
+      "path": "skills/creative/claude-design",
+      "classification": "modified-bundled",
+      "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+      "author": "BadTechBandit",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "74db40c56a13cc62ddacc76bb7dd3cc2",
+      "bundled_origin_md5": "a839ed75e38167058cb363f63b64c6a3",
+      "source_author": "BadTechBandit",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "design-md",
+        "popular-web-designs",
+        "excalidraw",
+        "architecture-diagram"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 27167,
+          "sha256": "c27cf00597c2622a567e67ef3a8349ddd0b69ebf9fccc3534fe562b339af954d",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "architecture-diagram",
+        "design-md",
+        "excalidraw",
+        "popular-web-designs"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "codebase-inspection",
+      "path": "skills/software-development/codebase-inspection",
+      "classification": "modified-bundled",
+      "description": "Inspect codebases w/ pygount: LOC, languages, ratios.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "6b40611eb489d18a319a720c8f1c0eab",
+      "bundled_origin_md5": "1775b8518df273a4d671c4afe54696b4",
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "github"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 4576,
+          "sha256": "96d99b5410d2b09b00362fabcbfeeccd8cba123ee391a3c10c33d9e2d189f3a1",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "github"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "codex",
+      "path": "skills/autonomous-ai-agents/codex",
+      "classification": "modified-bundled",
+      "description": "Delegate coding to OpenAI Codex CLI (features, PRs).",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "e8c5c8b4fa0dca543ae2ea0b2f065689",
+      "bundled_origin_md5": "4c716449fd88683f8832a682da60ee85",
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "claude-code",
+        "hermes-agent"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 17218,
+          "sha256": "598c620f96b2c5f44a4bfaae9870ccc0d1d3e1273c45360afbb469f0f5941be9",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "desktop-configurator-development",
+      "path": "skills/software-development/desktop-configurator-development",
+      "classification": "local-custom",
+      "description": "Use when developing desktop configurators or bar widgets.",
+      "author": "TyphooN (TyphooN-), Hermes Agent",
+      "license": "GPL-3.0-only",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "93bb4b3750d701c99a4c7030b26a382c",
+      "bundled_origin_md5": null,
+      "source_author": null,
+      "source_license": null,
+      "adapted_files": [
+        "SKILL.md",
+        "references/quickshell-widgets.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 74562,
+          "sha256": "94ca294930f51656660bec2f6d3e452cce3bc0dd5579ac40d8105bb4c40cb4f6",
+          "executable": false
+        },
+        "references/hyprland-workspace-migration.md": {
+          "bytes": 3828,
+          "sha256": "11431bad25d9a664d4e265b492ec96436c163509f7eb8422a3f936de25a16136",
+          "executable": false
+        },
+        "references/quickshell-widgets.md": {
+          "bytes": 63524,
+          "sha256": "f2a30009fa619f4e7e0c593641fd3e2e7277169d1a3c711ce14e961a7e032571",
+          "executable": false
+        },
+        "references/security-controls.md": {
+          "bytes": 11303,
+          "sha256": "70605b9b38131be80ce029e37cb26ce0afe29ef6d70eea554c798a20779b6c5e",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "filesystem-integrity-recovery",
+      "path": "skills/devops/filesystem-integrity-recovery",
+      "classification": "local-custom",
+      "description": "Use when checking or repairing filesystem corruption.",
+      "author": "TyphooN (TyphooN-), Hermes Agent",
+      "license": "GPL-3.0-only",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "b5139f92502a6d1dc3f1ec1941abd06d",
+      "bundled_origin_md5": null,
+      "source_author": null,
+      "source_license": null,
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 32565,
+          "sha256": "87ccc5f34940277eb2c371ab6628e2c2a8054364565567dc55c999131f11658d",
+          "executable": false
+        },
+        "references/btrfs-arch-evidence.md": {
+          "bytes": 17735,
+          "sha256": "fd2ff9b8b80bc8532fa965d199ac0fa9dbf079e90b001d48e1f08c9dfcc53142",
+          "executable": false
+        },
+        "references/cli-recovery-and-installation-selection.md": {
+          "bytes": 4991,
+          "sha256": "6c7664891bb2c6bfdf18e66804471c51d4d063e1f4fd98ce02682a5d2f4b1ca4",
+          "executable": false
+        },
+        "references/host-instability-evidence-triage.md": {
+          "bytes": 10445,
+          "sha256": "19e61c79c9aed3ab51e4653ea62fe3ec425ec18f1d2cd8194ecd299ec9249196",
+          "executable": false
+        },
+        "references/qualification-evidence-across-reboots.md": {
+          "bytes": 16057,
+          "sha256": "48d4ffba808d5b7a50c7d6d734db60b13b66da9fd6f515e76b16873ef03c2420",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "git-remote-ref-recovery",
+      "path": "skills/software-development/git-remote-ref-recovery",
+      "classification": "local-custom",
+      "description": "Use when Git fetch/pull fails on a broken remote ref.",
+      "author": "TyphooN (TyphooN-), Hermes Agent",
+      "license": "GPL-3.0-only",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "source_package_md5": "51d0ebd1deddaecc302e9a61609f5106",
+      "bundled_origin_md5": null,
+      "source_author": null,
+      "source_license": null,
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 2872,
+          "sha256": "368a83f6b5c3ca34fcb75bce0964b57296624bbc593a8bd3c506769a6c0cdb41",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "hermes-agent",
+      "path": "skills/autonomous-ai-agents/hermes-agent",
+      "classification": "modified-bundled",
+      "description": "Use, configure, theme, extend, and orchestrate Hermes Agent.",
+      "author": "Hermes Agent + Teknium",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "991cbf88082e77b2936b34d1e2e290a6",
+      "bundled_origin_md5": "37da26e707faa89f36cfb5ffe6dd5bb5",
+      "source_author": "Hermes Agent + Teknium",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md",
+        "references/native-mcp.md",
+        "references/project-context-files.md",
+        "references/security-privacy.md",
+        "references/troubleshooting.md",
+        "references/windows-quirks.md"
+      ],
+      "related_skills": [
+        "claude-code",
+        "codex",
+        "opencode"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 26186,
+          "sha256": "226cb71fe4477cc87f40f69d76e06ada326975ead58e2556a6ee82eb5f92419a",
+          "executable": false
+        },
+        "references/background-systems.md": {
+          "bytes": 38532,
+          "sha256": "21236e7b604b1251694e78150021b7242500f4ff15a6152bbcb040e60de8c392",
+          "executable": false
+        },
+        "references/cli-reference.md": {
+          "bytes": 14293,
+          "sha256": "122f5207e0a6383edc6d683cff521f21699def6860751bd645ae788d19d04516",
+          "executable": false
+        },
+        "references/configuration.md": {
+          "bytes": 4289,
+          "sha256": "3e859233f29fad8bf8d81b546c7af2c18874518e00d8515b6d2e314d4d167318",
+          "executable": false
+        },
+        "references/contributor-guide.md": {
+          "bytes": 8490,
+          "sha256": "c2410873e4689e8209478b72561af173e734c2d8479c610465886100e8aed23d",
+          "executable": false
+        },
+        "references/delegate-task-concurrency-diagnosis.md": {
+          "bytes": 4660,
+          "sha256": "41019dd37c0c048b002d3639fe01455513b5c9aba142a21ff9c3bd4c7718a77b",
+          "executable": false
+        },
+        "references/deleted-session-recovery.md": {
+          "bytes": 504,
+          "sha256": "6684396b35bedc40bf3c1f0748ed40ca108d5127ac6f38ab56756b9cff2fc74e",
+          "executable": false
+        },
+        "references/desktop-plugins.md": {
+          "bytes": 13073,
+          "sha256": "0193461a76114c4d9d92f3172d0e225ee84a2d0e452a55d2d1d732e5e61162f2",
+          "executable": false
+        },
+        "references/native-mcp.md": {
+          "bytes": 20773,
+          "sha256": "dc677f7ba66d55fb5776f69bbbf7f8ab90c8a897b67cfc6efd235d360a777288",
+          "executable": false
+        },
+        "references/petdex.md": {
+          "bytes": 3244,
+          "sha256": "2254eabf40c360efb54e4df482f3b84820b54a15e6954c4a7e9e7fee4eb90f77",
+          "executable": false
+        },
+        "references/portal-auth-for-third-party-apps.md": {
+          "bytes": 6563,
+          "sha256": "ca9e357ae5be6e10b677f4de3fd7a09d1efc423fe157dcda5b5a2ce7d39dee2a",
+          "executable": false
+        },
+        "references/project-context-files.md": {
+          "bytes": 3264,
+          "sha256": "2513d8bb05a50654534b42c4a1e79f9967075cbea21ac9acb9c4488ffe7676cf",
+          "executable": false
+        },
+        "references/providers-and-models.md": {
+          "bytes": 10877,
+          "sha256": "cc3fbcc49185816f3c57325edf72aee0c9abdd938ee7f7536241067b5492e05d",
+          "executable": false
+        },
+        "references/security-privacy.md": {
+          "bytes": 3392,
+          "sha256": "a9c436235a707e557bc5c7f211d73e36a0297ae7fd0a3c92fce1d1c6b35791c1",
+          "executable": false
+        },
+        "references/slash-commands.md": {
+          "bytes": 6832,
+          "sha256": "d2c15ed83197c2e47c63b3ea9d680ab01e1a5103f975136a1c56317595100833",
+          "executable": false
+        },
+        "references/themes.md": {
+          "bytes": 6887,
+          "sha256": "f5a8269a7312173f0caa6736156a3f76d32e56b4e15511e84dc2e902f48e8157",
+          "executable": false
+        },
+        "references/troubleshooting.md": {
+          "bytes": 32419,
+          "sha256": "beb995a57bf25e8813d616e9eed1b6dd484bae2e705c228ff2d632fe300ae561",
+          "executable": false
+        },
+        "references/tui-widgets.md": {
+          "bytes": 6484,
+          "sha256": "20e21aabb757a9d3c7d895db8f05a3782fe8b28feef3768ac5550c8860b4a3db",
+          "executable": false
+        },
+        "references/webhooks.md": {
+          "bytes": 8466,
+          "sha256": "f668c57d1900e249cb4b54e5d624e9aacb399ecf1452f9b258a1bf857ffa8a42",
+          "executable": false
+        },
+        "references/windows-quirks.md": {
+          "bytes": 2670,
+          "sha256": "8c39dcd8b49c3ba9438847b6a4ef047d0ecc1fb687e38d7ce172c2552f9b9d07",
+          "executable": false
+        },
+        "templates/clock.mjs": {
+          "bytes": 1423,
+          "sha256": "44ec25d560e16c7815a633039a783ddbba2d8e8cf1659560c0cd1cddec83f89d",
+          "executable": false
+        },
+        "templates/plugin.js": {
+          "bytes": 3141,
+          "sha256": "a63c8f879756854b45373f5d6b1ae0a7fefcdd4a5af840be8a60d83b64724744",
+          "executable": false
+        },
+        "templates/skin.yaml": {
+          "bytes": 1389,
+          "sha256": "bc8fddd7e5373b074c1c7dd423bb59d6e04769977e8a18354e3a6b3983209994",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "opencode"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "hermes-agent-skill-authoring",
+      "path": "skills/software-development/hermes-agent-skill-authoring",
+      "classification": "modified-bundled",
+      "description": "Author in-repo SKILL.md files: frontmatter and structure.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "c700a18c4e02c93d89f85f47b37af9d8",
+      "bundled_origin_md5": "fadc813c9a0a9ec5a6e6d6d200c15deb",
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "requesting-code-review"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 16170,
+          "sha256": "453590e541cb4e5528cef7dcaa8b88c528badccf06aabd2fa2827823d4151f0a",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "hermes-session-recovery",
+      "path": "skills/software-development/hermes-session-recovery",
+      "classification": "local-custom",
+      "description": "Use when recovering deleted Hermes chats. Preserve history.",
+      "author": "TyphooN, Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "68e455b54fb0e9c2b67d535016503dbc",
+      "bundled_origin_md5": null,
+      "source_author": "TyphooN, Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "hermes-agent"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 13515,
+          "sha256": "2dd67c6484f9319d20db89aeaeb57af746c0ed02a47a0d5128f5294408f1182c",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "leanrea",
+      "path": "skills/research/leanrea",
+      "classification": "local-custom",
+      "description": "Use when inspecting Fury artifacts with local CLI tools.",
+      "author": "AICodeKing; Fury-specific adaptation by Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "1afd18438c95aa49d7f3e7a7ebd93a9a",
+      "bundled_origin_md5": null,
+      "source_author": "AICodeKing; Fury-specific adaptation by Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md",
+        "references/upstream-guide.md (restored missing referenced upstream guide)",
+        "references/upstream-source.md"
+      ],
+      "related_skills": [
+        "legacy-game-static-assessment"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 5709,
+          "sha256": "6d3036a6c910de1244b175d767de1c7c509cc7a68a0be2512483bb0af92bfbe7",
+          "executable": false
+        },
+        "references/LICENSE-upstream.txt": {
+          "bytes": 1067,
+          "sha256": "f126681f66a89b4f610999a64f1a1fc6da98d221a39f65799a6d6bb6e051d922",
+          "executable": false
+        },
+        "references/upstream-guide.md": {
+          "bytes": 8374,
+          "sha256": "53581bd7fb1fae4352ab43252e67b84667b68895a68e372b99d302b58d9c782d",
+          "executable": false
+        },
+        "references/upstream-source.md": {
+          "bytes": 766,
+          "sha256": "04dc163b9292f15da798fd0640fab1812334f4b1c399ee001289d8b650115d14",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "https://github.com/aicodeking/leanrea"
+    },
+    {
+      "name": "legacy-game-static-assessment",
+      "path": "skills/research/legacy-game-static-assessment",
+      "classification": "local-custom",
+      "description": "Use when tracing recovered legacy game binaries.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "144583e59c6c2018caf96c5306af8ad3",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 32858,
+          "sha256": "c79891a8cd9436a1a8992f20fef6845da7748373228789822cd90cf0e299a8b0",
+          "executable": false
+        },
+        "references/bounded-native-evidence.md": {
+          "bytes": 10841,
+          "sha256": "d0df08c77cad81d6c96544782ab8e700b2efac9a083e2f1a91900e3b5963cd57",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "linux-kernel-boot-integration",
+      "path": "skills/devops/linux-kernel-boot-integration",
+      "classification": "local-custom",
+      "description": "Verify kernel package hooks, initramfs and boot entries.",
+      "author": "TyphooN, Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "05bb4ef93b12297d0684749e329edb09",
+      "bundled_origin_md5": null,
+      "source_author": "TyphooN, Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 9725,
+          "sha256": "244d285a7faf014dfcfea0c862f75ebf5e92110097f2af90aa57ca87f4724a1d",
+          "executable": false
+        },
+        "references/arch-mkinitcpio-limine.md": {
+          "bytes": 7070,
+          "sha256": "2bdf780cf5235b1e73a4d476646b4c67f4bed80d25b93b9a3bf11a3e516cce46",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "llama-cpp-upstream-refresh",
+      "path": "skills/software-development/llama-cpp-upstream-refresh",
+      "classification": "local-custom",
+      "description": "Use when updating llama.cpp to upstream master.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "78d46ec81c35f6bb0337a71c2f58658f",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "local-model-selection",
+        "requesting-code-review",
+        "systematic-debugging"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 15666,
+          "sha256": "33bd87023641fcf1c5e8aac322c313722151ea032e91fb393a61b8a20570b6d6",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "local-model-selection",
+      "path": "skills/research/local-model-selection",
+      "classification": "local-custom",
+      "description": "Use when selecting or qualifying local AI models.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "17fcf77eb58b9a24889b7d618af867bd",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "grounded-citations",
+        "omh-inference-serving",
+        "omh-model-optimization"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 33259,
+          "sha256": "654644eda9aa839df83192b07db23985888f48431961e92ca83032725c649f34",
+          "executable": false
+        },
+        "references/candidate-intake.md": {
+          "bytes": 33699,
+          "sha256": "dca9248ef296b31ab6285292602862748b1b2209d619733590ab5c484267e6d0",
+          "executable": false
+        },
+        "references/multimodal-qualification.md": {
+          "bytes": 4830,
+          "sha256": "540fbceaa54d0b300b74d6986f5382d40d641e090fb247fc5d164803020cc80b",
+          "executable": false
+        },
+        "references/qualification-gate-validation.md": {
+          "bytes": 38672,
+          "sha256": "f4e86acd034c6299a7f537fe230cfacfde6a85d4b0e1dbfd7cd9e9f48e51de07",
+          "executable": false
+        },
+        "references/qualification-run-lifecycle.md": {
+          "bytes": 15839,
+          "sha256": "11326e1831dc76e70104b2fe5e14240f68d0c484f48fbb48195de8bff582ecd5",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "grounded-citations",
+        "omh-inference-serving",
+        "omh-model-optimization"
+      ],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "omarchy-upstream-maintenance",
+      "path": "skills/software-development/omarchy-upstream-maintenance",
+      "classification": "local-custom",
+      "description": "Use when maintaining Omarchy changes across updates.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "d9b7568f3d1c23e01eecccacd7c3a2a0",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "omarchy",
+        "claude-code",
+        "requesting-code-review"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 10133,
+          "sha256": "ab7c93bd6f88be28400640b7fbd00530aee998d0f3623b6072a8cf29dfeb395b",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "omarchy"
+      ],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "omh-handoff-scan-notes",
+      "path": "skills/handoff-guide/omh-handoff-scan-notes",
+      "classification": "local-custom",
+      "description": "Use when handoff scans fail. Diagnose and retry safely.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "source_package_md5": "201f04218b5ef537fbea7ffed25b91b7",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "ulw-work",
+        "ulw-maestro",
+        "claude-code"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 3765,
+          "sha256": "8c66d641937ea05d6505aef5a5c38f1529e021ce0113021feb0de821ac52f38c",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "ulw-maestro",
+        "ulw-work"
+      ],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "pinned-offline-port-proof",
+      "path": "skills/software-development/pinned-offline-port-proof",
+      "classification": "local-custom",
+      "description": "Use when finishing a pinned offline source port.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "source_package_md5": "cff1e78196e36ba60d599275852e58f9",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 5718,
+          "sha256": "defa84c8ff9841f4be17781d18f8a857589a12902758cae8ad311694e88a4d9e",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "skills/software-development/requesting-code-review",
+      "classification": "modified-bundled",
+      "description": "Use when reviewing code or verification evidence.",
+      "author": "Hermes Agent (adapted from obra/superpowers + MorAlekss)",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "aa2014d4ef30df799d52c44165a04fcf",
+      "bundled_origin_md5": "a5f1e52435ea08f7251e4353cb54f545",
+      "source_author": "Hermes Agent (adapted from obra/superpowers + MorAlekss)",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "subagent-driven-development",
+        "test-driven-development",
+        "github"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 51351,
+          "sha256": "ed0e7fb64cb9e000e27698f598f85ff221a0118846477f02871ba841d16615f3",
+          "executable": false
+        },
+        "references/evidence-recovery.md": {
+          "bytes": 26528,
+          "sha256": "5f710e5dcaf08e05ddecabf4fab4ade2e861e1947152f412e47835c241f30985",
+          "executable": false
+        },
+        "references/native-entry-readiness.md": {
+          "bytes": 5284,
+          "sha256": "cdb09e9a13b223ef2263a38db84a03fff6c84a27033fdacfc2d373e16ef1bd16",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "github",
+        "subagent-driven-development"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "rust-workspace-dependency-refresh",
+      "path": "skills/software-development/rust-workspace-dependency-refresh",
+      "classification": "local-custom",
+      "description": "Use when refreshing Rust workspace dependencies.",
+      "author": "TyphooN (TyphooN-), Hermes Agent",
+      "license": "GPL-3.0-only",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "source_package_md5": "f5deeea530bef8aad00e401c0e65fa56",
+      "bundled_origin_md5": null,
+      "source_author": null,
+      "source_license": null,
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 9684,
+          "sha256": "d262eb3f2bedb8d8e825b654551257ab8a17b4bce0e343285a1847e096fb16a1",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "security-audit",
+      "path": "skills/security/security-audit",
+      "classification": "local-custom",
+      "description": "Use when reviewing code for security vulnerabilities.",
+      "author": "Cloudflare, Inc.",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "7afa411084acf6c9f2332ae6d6c31e5c",
+      "bundled_origin_md5": null,
+      "source_author": "Cloudflare, Inc.",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md",
+        "references/import-manifest.json"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 3181,
+          "sha256": "2360147481a45f356e2ba22207f40664b92076f00c37ba40a4b65e2f2d826d93",
+          "executable": false
+        },
+        "references/import-manifest.json": {
+          "bytes": 4145,
+          "sha256": "1f7fadcbb2776624aa665619a39f9865e0eccf5ba085adfa4424bcdcec8175cd",
+          "executable": false
+        },
+        "references/upstream/AI-AND-LLM.md": {
+          "bytes": 10617,
+          "sha256": "7335a95c43554eadefcf03ece639291bb0e038c398a179299e3887ffe06bd2ef",
+          "executable": false
+        },
+        "references/upstream/ATTACK-CLASSES.md": {
+          "bytes": 15695,
+          "sha256": "3ee4f00c6e8c9dcf6dd02dd5ac2a4ceb322e2085f3e9fbe79cf0c6330bc7ef83",
+          "executable": false
+        },
+        "references/upstream/CLIENT-SIDE.md": {
+          "bytes": 8594,
+          "sha256": "613f6b98f86083e045525c5b60154ffdab122bac35f1e05eb17488e6e453370c",
+          "executable": false
+        },
+        "references/upstream/CLOUD-AND-DEPLOYMENT.md": {
+          "bytes": 8291,
+          "sha256": "3c80f3088be22345e07b057c056d6ed99fe2b0304f794398964f7ccd5a496ca3",
+          "executable": false
+        },
+        "references/upstream/DATA-ISOLATION-AND-LIFECYCLE.md": {
+          "bytes": 7798,
+          "sha256": "307dcb3e24d292715c4a041190e7bb135646a37eb6187619ae01d000a634a4ad",
+          "executable": false
+        },
+        "references/upstream/DESKTOP-MOBILE-AND-LOCAL-IPC.md": {
+          "bytes": 8739,
+          "sha256": "58eae8ee0ca6a46611c501ec5a3ab47fdff88dd7db0d8d74789bbf8bb19d8cb2",
+          "executable": false
+        },
+        "references/upstream/HUNTING.md": {
+          "bytes": 22446,
+          "sha256": "71c121decea1322c47c718f6e110f1a892980bb4266bd7ac55ef043a213ade09",
+          "executable": false
+        },
+        "references/upstream/LICENSE": {
+          "bytes": 1078,
+          "sha256": "e598e694aa506650c7192d5ea3be0e50aca0d356ea00551c53429f0b01eb6391",
+          "executable": false
+        },
+        "references/upstream/MEMORY-SAFETY-AND-BINARY.md": {
+          "bytes": 10513,
+          "sha256": "7c8b0dccfb35315cca2455509674d49632b2fe37e1f3aac16c1a496a7e9924a7",
+          "executable": false
+        },
+        "references/upstream/PROTOCOLS-RPC-AND-MESSAGING.md": {
+          "bytes": 7483,
+          "sha256": "8b73816fa5b3697c9c40977f0c836b40f01d6e81929ff2720fe83ce089e9a619",
+          "executable": false
+        },
+        "references/upstream/README.md": {
+          "bytes": 6950,
+          "sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+          "executable": false
+        },
+        "references/upstream/RECONNAISSANCE.md": {
+          "bytes": 15902,
+          "sha256": "02ca887aca84de8ae137f1891bd2f0a54f28d3fa6da92a27f54734382b3381a2",
+          "executable": false
+        },
+        "references/upstream/RESOURCE-EXHAUSTION-AND-AVAILABILITY.md": {
+          "bytes": 7476,
+          "sha256": "4326fab5c92a0b4c420a70196254040105cd794026562130b59bf1a6db3e4baa",
+          "executable": false
+        },
+        "references/upstream/SKILL.md": {
+          "bytes": 22026,
+          "sha256": "5e3e96a1e438d8f35fef0a1e38f02d4f00e2bdf910401b7dfe00e6779c6dac85",
+          "executable": false
+        },
+        "references/upstream/SUPPLY-CHAIN-AND-RELEASE.md": {
+          "bytes": 7258,
+          "sha256": "f372e919940e335468ba1ae09f99026c3986a345f7fe26f8068f132e199f52a5",
+          "executable": false
+        },
+        "references/upstream/VALIDATION-AND-REPORTING.md": {
+          "bytes": 17843,
+          "sha256": "b892470cb89bb31f33403e050d4bdfbe2cdaef940ade1496fa65e32b2e129449",
+          "executable": false
+        },
+        "references/upstream/WEB-PROTOCOL-AND-AUTH.md": {
+          "bytes": 12300,
+          "sha256": "4f3066dffa23c5635859187be9b96c32f2aff29a688186b91ff0c63e47d62b5c",
+          "executable": false
+        },
+        "references/upstream/report-schema.json": {
+          "bytes": 14494,
+          "sha256": "6575c9de4a62255699ea052ebf9a49ebfb373a32891bcd89af6f55cc84b35519",
+          "executable": false
+        },
+        "references/upstream/validate-coverage-ledger.cjs": {
+          "bytes": 33522,
+          "sha256": "2eb280bd2e33c002916f86db9b29f9edfedb6454e5db973c766290465b868ac8",
+          "executable": false
+        },
+        "references/upstream/validate-coverage-ledger.test.cjs": {
+          "bytes": 28483,
+          "sha256": "cfb9df26b03469a4279a70e7664a2a5434dd6f8c2c204e91f9b0aeb9dd71e648",
+          "executable": false
+        },
+        "references/upstream/validate-findings.cjs": {
+          "bytes": 28806,
+          "sha256": "e85f232e36bfac0f866f244da50376692d6b45c690beadcb00608b0e6c8b5283",
+          "executable": false
+        },
+        "references/upstream/validate-findings.test.cjs": {
+          "bytes": 26384,
+          "sha256": "b92001117a92c4161d43777a0ba2fa182a8a4d97f2304cc8c0cee5331497b73b",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "name": "source-faithful-game-ports",
+      "path": "skills/software-development/source-faithful-game-ports",
+      "classification": "local-custom",
+      "description": "Use when porting games from source. Prove playable parity.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "source_package_md5": "53c753fb2a72193da83c42c42c19f008",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [],
+      "files": {
+        "SKILL.md": {
+          "bytes": 40029,
+          "sha256": "dafe171859e6ab6b38fa36e9d0c6e56c0b3e4422116ef7ca9321db771ef75785",
+          "executable": false
+        },
+        "references/audio-playback.md": {
+          "bytes": 4913,
+          "sha256": "e62acc173aa74d06fbb3bb347a4be43c4295c999e81f31677686ad67aad6f873",
+          "executable": false
+        },
+        "references/differential-oracles.md": {
+          "bytes": 20134,
+          "sha256": "6a0a8b50a47a16579bf5acf0341c024ee0626af16653b2a76c61df8fe6ba932b",
+          "executable": false
+        }
+      },
+      "external_related_skills": [],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "supernal-wallpaper-intake",
+      "path": "skills/projects/supernal-wallpaper-intake",
+      "classification": "local-custom",
+      "description": "Use when adding Supernal wallpapers. Audit colour coverage.",
+      "author": "TyphooN-, Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "134a6548b5731fac10ecc28c3e7a57b9",
+      "bundled_origin_md5": null,
+      "source_author": "TyphooN-, Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "omarchy",
+        "claude-code"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 4966,
+          "sha256": "fd774aeda615386fcba1f98231517a7fb62adf0b951f02f7162503d77d3544d8",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "omarchy"
+      ],
+      "source": "TyphooN local workflow/integration"
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "skills/software-development/systematic-debugging",
+      "classification": "modified-bundled",
+      "description": "4-phase root cause debugging: understand bugs before fixing.",
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "0ec282495567410899a4a5f93ea19c07",
+      "bundled_origin_md5": "09b23d68c842d5273b02f59223b0b580",
+      "source_author": "Hermes Agent (adapted from obra/superpowers)",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "test-driven-development",
+        "subagent-driven-development"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 27704,
+          "sha256": "09615a0c681e1fea106482cb6af0c5b408fa651d2a9e5924b223209bf28da372",
+          "executable": false
+        },
+        "references/read-only-preflight-diagnosis.md": {
+          "bytes": 5437,
+          "sha256": "4a84260f3066bd55786d530a5127b850eca90086e53f19718330ddf540bc8ca2",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "subagent-driven-development"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "test-driven-development",
+      "path": "skills/software-development/test-driven-development",
+      "classification": "modified-bundled",
+      "description": "TDD: enforce RED-GREEN-REFACTOR, tests before code.",
+      "author": "Hermes Agent (adapted from obra/superpowers)",
+      "license": "MIT",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "source_package_md5": "2c0d8bcc0f5de41b71f9445c5642bd77",
+      "bundled_origin_md5": "d1245a9a2350c1a5295907f41f137e69",
+      "source_author": "Hermes Agent (adapted from obra/superpowers)",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "systematic-debugging",
+        "subagent-driven-development"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 33245,
+          "sha256": "6ea49f0a851c45d1d036484e77ba3f7c3957613aa6c0df93f547c4930c0d818b",
+          "executable": false
+        },
+        "references/descriptor-backed-io.md": {
+          "bytes": 7803,
+          "sha256": "9dec30d5ef1c835b470a651b57de1f259fc9faccb2748fd651317f50393ac015",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "subagent-driven-development"
+      ],
+      "source": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "uefi-xeon-turbo-research",
+      "path": "skills/research/uefi-xeon-turbo-research",
+      "classification": "local-custom",
+      "description": "Use when investigating Xeon BIOS turbo unlocks.",
+      "author": "Hermes Agent",
+      "license": "MIT",
+      "platforms": [
+        "linux"
+      ],
+      "source_package_md5": "c8afadcae207e04cbe96c09b8bfdcfcb",
+      "bundled_origin_md5": null,
+      "source_author": "Hermes Agent",
+      "source_license": "MIT",
+      "adapted_files": [
+        "SKILL.md"
+      ],
+      "related_skills": [
+        "grounded-citations",
+        "requesting-code-review"
+      ],
+      "files": {
+        "SKILL.md": {
+          "bytes": 7106,
+          "sha256": "907f1fd83c1ca1243f73b36a66144b268b47f1ba1573df9f23cdd611bb2bd716",
+          "executable": false
+        }
+      },
+      "external_related_skills": [
+        "grounded-citations"
+      ],
+      "source": "TyphooN local workflow/integration"
+    }
+  ],
+  "catalog_sha256": "dfdeb240bf07438890a53afd50ae611b0cc1b303dd3cee5951466eff12e1cffd"
+}

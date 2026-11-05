@@ -1,0 +1,3 @@
+# Only needed for full frontmatter parsing and development tests.
+# The installer and its integrity checker use Python's standard library.
+PyYAML==6.0.3
